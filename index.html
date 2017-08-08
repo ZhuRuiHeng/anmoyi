@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>威朗尼斯专业按摩椅</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="icon" width="50px" href="images/vellness.png" type="image/x-icon">
+        <link rel="shortcut icon" width="50px" href="images/vellness.png" type="image/x-icon">
+	</head>
+	<body>	
+		<div class="box">
+			<header>
+				<p>深圳市威司拓智能科技有限公司</p>
+			</header>
+			<div class="time">
+				<p><span><img width="24px"; src="images/shijian.png" alt=""></span><span class="two">时间选择</span></p>
+				<div class="shijian types">
+					<div class="type type1">
+						<h5>￥11</h5>
+						<p>11分钟</p>
+					</div>
+					<div class="type type1">
+						<h5>￥11</h5>
+						<p>11分钟</p>
+					</div>
+				</div>
+			</div>
+			<div class="way">
+				<p><span><img width="20px" src="images/fanshi.png" alt=""></span><span class="two">按摩方式</span></p>
+				<div class="fangshi types">
+					<p class="type type2">中式按摩</p>
+					<p class="type type2">泰式按摩</p>
+				</div>
+			</div>
+			<div class="notice">
+				<p>注意：如果支付成功后产品未能成功开启，或开启成功后未到购买时间停止，系统会在十分钟内自动退款，请耐心等候！</p>
+			</div>
+			<div class="hot">
+				<p><span><img  width="20px" src="images/rexiao.png" alt=""></span><span class="two">热销产品推荐</span></p>
+				<div  class="rexiao types">
+					<div class="type type3">
+						<div class="up"><img src="images/IMG_36701-.png" alt=""></div>
+						<div class="down">
+							<h6>宝贝按摩椅</h6>
+							<p class="one">宝贝按摩椅宝贝按摩椅宝贝按摩椅</p>
+							<p><span>￥188</span><em>全国包邮</em></p>
+						</div>
+					</div>
+					<div class="type type3">
+						<div class="up"><img src="images/xuand.png" alt=""></div>
+						<div class="down">
+							<h6>宝贝按摩椅</h6>
+							<p class="one">宝贝按摩椅宝贝按摩椅宝贝按摩椅</p>
+							<p><span>￥188</span><em>全国包邮</em></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="phone types">
+				<p class="type type4">销售电话：<span>12342454354</span></p>
+				<p class="type type4">服务电话：<span>12342454354</span></p>
+			</div>
+			<div class="argee">
+				<span></span><p>我已阅读并同意<a href="xieyi.html">《威朗尼斯-服务协议》</a></p>
+			</div>
+		</div>
+		<footer>
+			<p class="flex1">合计：<span>7.9</span>元</p>
+			<p class="flex2"><button>确认支付</button></p>
+		</footer>
+		<script src="js/jquery-1.12.2.min.js"></script>
+		<script>
+		$(".type1").click(function(){
+		  	$(".type1").removeClass("active");
+		  	$(this).addClass("active");
+		});
+		$(".type2").click(function(){
+		  	$(".type2").removeClass("active");
+		  	$(this).addClass("active");
+		});
+		// 同意
+		$(".argee").click(function(){
+		  	$(this).find('span').toggleClass("active");
+		});
+		
+		</script>
+	</body>
+</html>

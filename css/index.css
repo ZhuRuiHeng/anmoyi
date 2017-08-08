@@ -1,0 +1,182 @@
+
+body{
+    background: #eee;
+    font-family: Microsoft YaHei;
+    color:#939393;
+    font-size: 14px;
+}
+body,div,h1,h2,h3,h4,h5,h6,span,a,ul,ol,li,p,span,em,i,b,img,button,input,header,section,dl,dd,footer,video,source{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+ul,li,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    -webkit-tap-highlight-color:rgba(255,0,0,0);
+}
+a:link,a:visited ,a:hover {
+    text-decoration: none;
+}
+em,i,span,b,label{
+	font-style: normal;
+	display: inline-block;
+    font-weight: normal;
+}
+input,button,textarea {
+     border:0;
+     margin:0;
+     padding:0;
+     font-size:1em;
+     line-height:1em;
+     background-color:rgba(0, 0, 0, 0);
+     font-family: "Microsoft YaHei", Helvetica, STHeiTi, Arial, sans-serif;
+     resize: none;
+     outline: none;
+}
+input[type="radio"]{
+    /*visibility: hidden;*/
+}
+button{
+  -webkit-appearance:none;
+}
+.box{
+    padding:15px;
+}
+.box header p{
+    text-align: center;
+    padding: 10px;
+}
+.time>p,.way>p,.hot>p{display: flex;align-items: flex-start;height: 26px;line-height: 26px;padding: 10px 0;}
+p span.two{padding-left: 10px;}
+.type{
+    border:1px solid #999;
+    color:#626262;
+}
+.types{
+    overflow: hidden;
+    text-align: center;
+}
+.types .type{
+    width: 45%;
+    display: inline-block;
+    border-radius: 8px;
+}
+.types .type:first-child{
+    float: left;
+}
+.types .type:last-child{
+    float: right;
+}
+.shijian .type1 h5{
+    padding: 10px;
+    font-size: 20px;
+}
+.shijian .type1 p{
+    padding-bottom: 10px;
+}
+.fangshi .type2{
+    padding: 20px;
+    box-sizing: border-box;
+}
+.notice p{
+    color:red;
+    padding: 10px 0;
+}
+.hot .type3 .up{
+    background: #fff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.hot .type3 .up img{
+    width: 100%;
+}
+.hot .type3 .down{
+    background: #DFDFDF;
+    color: #626262;
+    text-align: left;
+    padding: 4px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.hot .type3 .down h6{
+    font-size: 15px;
+}
+.hot .type3 .down p.one{
+    display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;font-size: 12px;
+}
+.type2.active,.type1.active{
+    background: #AF1E23;
+    color: #fff;
+}
+.phone{
+    padding: 10px 0;
+    font-size: 12px;
+}
+.phone .type{
+    border:none;
+}
+.hot .type3 .down p span{
+    color: #FA881B
+}
+.hot .type3 .down p em{
+    color: #626262;
+}
+.argee span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/2.png) no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 4px;
+    padding-right: 3px;
+}
+.argee span.active{
+    background: url(../images/1.png) no-repeat;
+    background-size: contain;
+}
+.argee p{
+    display: inline-block;
+    color: #666;
+}
+.argee p a{
+    color:red;
+}
+footer{
+    height: 50px;
+    line-height: 50px;
+    background: #fff;
+    display: flex;
+    padding:0 0 0 10px ;
+    box-sizing: border-box;
+}
+footer .flex1{
+    flex: 2;
+}
+footer .flex1 span{
+    color: #FA881B;
+}
+footer .flex2{
+     flex: 1;
+     background: #AF1E23;
+     color: #fff;
+}
+footer .flex2 button{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+p.red{
+    color: red;
+    padding: 10px 0;
+}
+.box.xieyi p{
+    line-height: 22px;
+}
